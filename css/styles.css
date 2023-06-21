@@ -1,0 +1,513 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, p, ul, blockquote {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    padding: 39px 48px 39px 0;
+    background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url(../img/Rectangle104\(1\).jpg);
+}
+
+.header-main {
+    width: 1032px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 49px 0 204px;
+}
+
+.header-logo {
+    width: 186px;
+    height: 72px;
+}
+
+.header-left {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.logo-link {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: black;
+    text-decoration: none;
+}
+
+.header-ul1{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 325px;
+    align-items: center;
+}
+
+.nav-list-text:hover, .nav-list-text:focus {
+    font-weight: 600;
+    color: #94CFFF;
+}
+
+.nav-list-text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #FFFFFF;
+
+}
+
+.btn {
+    width: 141px;
+    height: 42px;
+    background-color: #0B0E66;   
+    font-family: 'HeadlandOne', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.25;
+    text-align: center;
+    color: #26C6EA;
+    border: 2px solid #26C7EA;
+    border-radius: 35px 0 35px 0;
+}
+
+.header-right {
+    width: 107px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-right-p {
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.swither {
+    width: 36px;
+    height: 20px;
+}
+
+.Group {
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    height: 740px;
+    background-image: url(../img/Group481\(1\).jpg);
+}
+
+.text-class {
+    width: 579px;
+    padding: 180px 0 0 204px;
+}
+
+.text-p {
+    display: flex;
+    width: 298px;
+    height: 96px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.arrow {
+    display: flex;
+    margin-left: 53px;
+    background-image: url(../img/Rectangle53.png);
+    width: 152px;
+    height: 40px;;
+}
+
+.text-p2 {
+    display: flex;
+    width: 376px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.button {
+    margin-top: 42px;
+    font-family: 'Headland One',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    width: 260px;
+    height: 80px;
+    color: #26C7EA;
+    background: #0B0E66;
+    border: 3px solid #26C7EA;
+    border-radius: 45px 0px;
+}
+
+.social-network {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50px;
+    height: 141px;
+    margin: 300px 204px 299px 606px;
+}
+
+.inst {
+    margin-left: 20px;
+    margin-bottom: 24px;
+}
+
+.twitter {
+    margin-left: 16px;
+    margin-bottom: 27px;
+}
+
+.quotes {
+    width: 1440px;
+    height: 350px;
+    padding-top: 75px;
+    padding-bottom: 10px;
+    background: #FFFFFF;
+}
+
+.div>cite::after {
+        content: '';
+        margin-top: 8px;
+        display: block;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+        width: 400px;
+        height: 120px;
+        background-image: url(../img/Rectangle8.png);
+    
+}
+
+.block-1 {
+    margin-bottom: 16px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.22;
+    color: #0A3853;
+}
+
+.block-2 {
+    padding: 75px 0 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.22;
+    color: #0A3853;
+}
+
+.cite {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 16px;
+    line-height: 1.20;
+    color: black;
+}
+
+.trailer {
+    width: 1440px;
+    height: 741px;
+    background-image: url(../img/Rectangle10\(1\).jpg);
+}
+
+.div-btn {
+    display: flex;
+    padding: 330px 590px;
+}
+
+.button-trailer {
+    font-family: 'Headland One',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #26C7EA;
+    box-sizing: border-box;
+    width: 260px;
+    height: 80px;
+    background: #0B0E66;
+    border: 3px solid #26C7EA;
+    border-radius: 45px 0 45px 0;
+    padding: 25px 20px 25px 20px;
+}
+
+.block {
+    width: 1442px;
+    height: 350px;
+    background: #FFFFFF;
+}
+
+.div {
+    text-align: center;
+}
+
+.block-3 {
+    margin-bottom: 16px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.22;
+    color: #0A3853;
+}
+
+.cite-2 {
+    display: block;
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 16px;
+    line-height: 1.20;
+    color: black;
+}
+
+.image-2 {
+    width: 400px;
+    height: 120px;
+    background: url(../img/Rectangle8.png);
+}
+
+.language {
+    padding:58px 0 57px ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/Rectangle20\(1\).jpg);
+}
+
+.container-language {
+    width: 1032px;
+    margin: 0 auto;
+}
+
+.h4 {
+    text-align: center;
+    margin-bottom: 45px;
+    font-family: 'Headland One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.25;
+    color: #141414;
+}  
+
+.navi-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap; 
+}
+
+.list {
+    padding: 36px 0; 
+    width: 320px;
+    height: 240px;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.list:not(:nth-child(n+4)) {
+    margin-bottom: 24px;
+}
+
+.text {
+    font-family: 'Headland One', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1;
+    text-align: center;
+    color: #141414;
+}
+
+.text:nth-child(1) {
+    margin-bottom: 40px;
+}
+
+.list:nth-child(3n+1)>.text:nth-child(1)::after {
+    display: block;
+    width: 152px;
+    height: 40px;
+    content: '';
+    background-image: url(../img/Rectangle42.png);
+    margin: 40px auto;
+}
+
+.list:nth-child(3n+2)>.text:nth-child(1)::after {
+    display: block;
+    width: 152px;
+    height: 40px;
+    content: '';
+    background-image: url(../img/Rectangle99.png);
+    margin: 40px auto;
+}
+
+.list:nth-child(3n+3)>.text:nth-child(1)::after{
+    display: block;
+    content: '';
+    width: 152px;
+    height: 40px;
+    background-image: url(../img/Rectangle96.png);
+    margin: 40px auto;
+}
+
+.text-2 {
+    font-family: 'HeadlandOne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: justify;
+    color: #000000;
+    text-align: center;
+}
+
+.block-4n {
+    width: 812px;
+    height: 44px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color: #141414;
+}
+
+.cite-3 {
+    display: block;
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 16px;
+    line-height: 1.20;
+    color: black;
+}
+
+.image-4 {
+    width: 400px;
+    height: 120px;
+}
+
+.footer {
+    background-position: center;
+    background-image:linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url(../img/Rectangle104\(1\).jpg)  ;
+}
+
+.footer-container {
+    display: flex;
+}
+
+.footer-avatar {
+    display: block;
+    padding: 77px 80px 76px 204px;
+}
+
+.line {
+    margin-top: 35px;
+    display: flex;
+    height: 153px;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 80px 0 25px;
+    margin-left: 80px;
+}
+
+.footer-ul {
+    width: 689px;
+    margin-bottom: 37px;
+}
+
+.email {
+    display: flex;
+    width: 689px;
+    align-items: center;
+}
+
+.email:nth-child(1) {
+    margin-bottom: 16px;
+}
+
+.footer-border-line {
+    width: 269px;
+    height: 2.5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-image: url(../img/Vector8.png);
+}
+
+.name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+.footer-border-line-2 {
+    width: 194px;
+    height: 2.5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-image: url(../img/Vector8.png);
+}
+
+.footer-avatar-email {
+    display: flex;
+    padding-left: 130px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
